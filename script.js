@@ -80,35 +80,48 @@ function clearStatusClass(element) {
 
 const questions = [
     {
-        question: 'What is 2 + 2?' ,
+        question: 'Commonly used data types DO NOT include:' ,
         answers: [
-            { text: '4', correct: true },
-            { text: '22', correct: false }
+            { text: 'strings', correct: false },
+            { text: 'booleans', correct: false },
+            { text: 'alerts', correct: true },
+            { text: 'numbers', correct: false }
         ]
     },
 {
-    question: 'Who is the best youTuber?',
+    question: 'The condition in an if/else statement is enclosed with:',
     answers: [
-        {text: 'Web Dev Simplified', correct: true },
-        {text: 'Traversy Media', correct: true },
-        {text: 'Dev Ed', correct: true },
-        {text: 'Fun Fun Function', correct: true}
+        {text: 'quotes', correct: false },
+        {text: 'curly brackets', correct: true },
+        {text: 'parenthesis', correct: false },
+        {text: 'square brackets', correct: false}
     ]
 },
 {
-    question: 'Is web development fun?',
+    question: 'Arrays in JavaScript can be used to store:',
     answers: [
-        {text: 'Kinda', correct: false },
-        {text: 'YES!!!', correct: true },
-        {text: 'Um no', correct: false },
-        {text: 'IDK', correct: false },
+        {text: 'numbers and strings', correct: false },
+        {text: 'other arrays', correct: false },
+        {text: 'booleans', correct: false },
+        {text: 'all of the above', correct: true }
     ]
 },
 {
-    question: 'What is 4 * 2?',
+    question: 'String values must be enclosed within___when being assigned to variables.',
     answers: [
-        {text: '6', correct: false },
-        {text: '8', correct: true }
+        {text: 'commas', correct: false },
+        {text: 'curly brackets', correct: false },
+        {text: 'quotes', correct: true },
+        {text: 'parenthesis', correct: false }
     ]
-}
+},
+{
+    question: 'A very useful tool used during development and debugging for printing content to the debugger is:',
+    answers: [
+        {text: 'JavaScript', correct: false },
+        {text: 'terminal/bash', correct: false },
+        {text: 'for loops', correct: false },
+        {text: 'console.log', correct: true }
+    ]
+},
 ]
