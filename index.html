@@ -9,6 +9,13 @@
     <title>Quiz App</title>
 </head>
 <body>
+    <div class="wrapper">
+        <h1>Highscores</h1>
+        <ol id="highscores"></ol>
+
+        <button class="Go Back">Go Back</button>
+    </div>
+    <div class="scores">View Highscores</a></div>
     <div class="timer">Time: <span id="time">0</span></div>
     <div class="container">
         <div id="start-screen" class="start">
@@ -17,7 +24,6 @@
             Try to answer the following code-related questions within the time limit.
             Keep in mind that incorrect answers will penalize your score/time by ten seconds!
         </p>
-        
         </div>
         <div id="question-container" class="hide">
             <div id="question">Question</div>
@@ -27,6 +33,15 @@
                 <button class="btn">Answer 3</button>
                 <button class="btn">Answer 4</button>
             </div>
+        </div>
+        
+        <div id="end screen" class="hide">
+        
+            <h2>All done!</h2>
+            <p>Your final score is <span id="final-score"></span></p>
+            <p>Enter initials: <input type="text" id="initials" max="3"/>
+                <button id="submit">Submit</button>
+           
         </div>
         <div class="controls">
             <button id="start-btn" class="start-btn btn">Start</button>
